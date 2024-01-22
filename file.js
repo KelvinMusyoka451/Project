@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded',poster)
 function poster(){
-  fetch('http://localhost:3000/shopping')
+  fetch(' https://my-json-server.typicode.com/KelvinMusyoka451/Project')
   .then(response => response.json())
   .then(shopping =>shopping.forEach((item)=>{
     let container = document.getElementById('home')
